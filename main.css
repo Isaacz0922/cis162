@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color for better readability */
+    padding: 20px;
+}
+
+/* Style the header */
+h1 {
+    color: #2c3e50; /* Dark blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #34495e; /* Darker gray-blue */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ecf0f1; /* Light gray text */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #1abc9c; /* Light teal on hover */
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Style the headings */
+h2 {
+    color: #2c3e50; /* Same dark blue */
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+/* Style the unordered list */
+ul {
+    margin-left: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Style the footer links */
+footer a {
+    color: #1abc9c; /* Light teal link color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
